@@ -30,4 +30,4 @@ def request_letter():
     return False
 
 
-request_letter()
+assert request_letter()
