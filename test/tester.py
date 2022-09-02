@@ -26,3 +26,6 @@ def request_letter():
 
     print('Test Failed!')
     return False
+
+
+request_letter()
