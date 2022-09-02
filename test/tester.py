@@ -1,6 +1,7 @@
 import requests
 
 
+# check whether the received letter is a valid one
 def check_greek_letter(received_letter):
     letters = ['\u0391', '\u0392', '\u0393', '\u0394', '\u0395', '\u0396', '\u0397', '\u0398', '\u0399',
                '\u039A', '\u039B', '\u039C', '\u039D', '\u039E', '\u039F', '\u03A0', '\u03A1', '\u03A3',
@@ -11,6 +12,7 @@ def check_greek_letter(received_letter):
     return received_letter in letters
 
 
+# sending a request to the main app and checking its response
 def request_letter():
     try:
         resp = requests.get(url='http://127.0.0.1/letter')

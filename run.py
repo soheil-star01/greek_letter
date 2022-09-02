@@ -5,6 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 
+# listening for a request and retrieving a random letter
 @app.route('/letter')
 def get_greek_letter():
     letters = ['\u0391', '\u0392', '\u0393', '\u0394', '\u0395', '\u0396', '\u0397', '\u0398', '\u0399',
