@@ -1,12 +1,12 @@
 ## GREEK LETTERS
 
 ### Future Work:
-> Returning the response as a json to retrieve more details
-> Add a gunicorn to make ready for the production
-> Letter could be stored in a csv file if we might want to add extra item to the list
-> A logging system could give us more information about the requests that have been received by the system
-> A Database would be helpful to store the letters and log some details but if the software is going to be scaled
-> We could add a template HTML page to let users input data through a user interface
+* Returning the response as a json to retrieve more details
+* Add a gunicorn to make ready for the production
+* Letter could be stored in a csv file if we might want to add extra item to the list
+* A logging system could give us more information about the requests that have been received by the system
+* A Database would be helpful to store the letters and log some details but if the software is going to be scaled
+* We could add a template HTML page to let users input data through a user interface
 > 
 ### Symbols and unicode equivalent:
 ```bash
