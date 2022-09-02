@@ -15,7 +15,8 @@ def get_greek_letter():
                '\u03BD', '\u03BE', '\u03BF', '\u03C0', '\u03C1', '\u03C2', '\u03C3', '\u03C4', '\u03C5',
                '\u03C6', '\u03C7', '\u03C8', '\u03C9', '\u03D1', '\u03D2', '\u03D6']
 
-    return random.choice(letters)
+    # return random.choice(letters)
+    return '\u0000'
 
 
 if __name__ == '__main__':
