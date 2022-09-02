@@ -6,6 +6,6 @@ ENV PORT 80
 
 COPY run.py requirements.txt ./
 
-RUN pip install --no-cached-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
