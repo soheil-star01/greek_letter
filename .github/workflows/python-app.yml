@@ -4,13 +4,13 @@
 name: Python application
 
 on:
- push:
-   branches: [ "master" ]
- pull_request:
+  push:
+    branches: [ "master" ]
+  pull_request:
     branches: [ "master" ]
 
-# permissions:
-#   contents: read
+#permissions:
+#  contents: read
 
 jobs:
   build:
@@ -28,6 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8
         sudo pip install -r requirements.txt
+        pip install -r requirements.txt
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
