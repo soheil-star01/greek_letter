@@ -8,5 +8,4 @@ COPY run.py requirements.txt ./
 
 RUN pip install --no-cached-dir -r requirements.txt
 
-ENTRYPOINT FLASK_APP=run.py
-flask run --host=0.0.0.0
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
